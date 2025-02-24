@@ -1,8 +1,10 @@
+const kDefaultYPos = -50
+
 class Leaf {
     constructor(xPos, speed, element) {
         this.xPos = xPos;
         // Start at the top of the viewport
-        this.yPos = 0;
+        this.yPos = kDefaultYPos;
         this.speed = speed;
         this.element = element;
 
@@ -56,7 +58,7 @@ function createLeaf() {
     div.style.background = color;
 
     // Position at the top
-    div.style.top = "0px";
+    div.style.top = `${kDefaultYPos}px`;
     return div;
 }
 

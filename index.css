@@ -8,7 +8,7 @@ html {
     scroll-snap-type: mandatory;
     scroll-snap-stop: always;
     height: 100%;
-    background-color: #0a213f;
+    background-color: #c1f5b1;
 }
 
 body {
@@ -26,6 +26,7 @@ body {
 .app {
     position: absolute;
     height: 100%;
+    width: 100%;
     overflow-y: scroll;
     justify-content: space-between;
     display: flex;
@@ -47,7 +48,7 @@ body {
     animation: pulse 10s infinite alternate forwards ease-in-out;
     font-family: "Space Mono", monospace;
 }
-/* 
+/*
 img {
     width: 18vw;
     margin: auto 0;
@@ -57,7 +58,8 @@ img {
 
 .img-holder {
     width: 100%;
-    padding-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,7 +156,6 @@ img {
 
 #footer {
     color: white;
-    width: 100vw;
     box-sizing: border-box;
     text-align: center;
     margin-bottom: 0;
@@ -162,6 +163,7 @@ img {
     font-size: 1.05rem;
     font-family: "Inter", sans-serif;
     line-height: 1.5em;
+    margin-bottom: 20px;
 }
 
 #footer a {
@@ -171,7 +173,7 @@ img {
 #links {
     display: flex;
     justify-content: space-around;
-    margin: 0 auto 0.5rem;
+    margin: 0 auto 1rem;
     padding: 0;
     width: 8vw;
 }
@@ -289,4 +291,8 @@ img {
     /* Optionally add a slight shadow for depth */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     will-change: transform, top, left;
+}
+
+.discord-email-line {
+    margin-bottom: 3px;
 }
