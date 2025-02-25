@@ -164,6 +164,7 @@ img {
     font-family: "Inter", sans-serif;
     line-height: 1.5em;
     margin-bottom: 20px;
+    padding: 0 10px;
 }
 
 #footer a {
@@ -172,7 +173,8 @@ img {
 
 #links {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 12px;
     margin: 0 auto 1rem;
     padding: 0;
     width: 8vw;
