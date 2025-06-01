@@ -181,7 +181,8 @@ img {
 }
 
 .red,
-.blue {
+.blue,
+.pink {
     transition: all 0.15s;
     color: #fff;
 }
@@ -192,6 +193,10 @@ img {
 
 .blue:hover {
     color: #40d6db;
+}
+
+.pink:hover {
+    color: #db01ac;
 }
 
 #links a {
