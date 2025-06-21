@@ -1,5 +1,5 @@
 {
-    "headers": {
+    "headers": [{
         "source": "/",
         "headers": [
             {
@@ -7,5 +7,5 @@
                 "value": "0; url=https://play.bcactf.com/"
             }
         ]
-    }
+    }]
 }
