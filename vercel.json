@@ -1,0 +1,11 @@
+{
+    "headers": {
+        "source": "/",
+        "headers": [
+            {
+                "key": "refresh",
+                "value": "0; url=https://play.bcactf.com/"
+            }
+        ]
+    }
+}
