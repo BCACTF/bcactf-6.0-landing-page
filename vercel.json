@@ -1,15 +1,3 @@
 {
-    "$schema": "https://openapi.vercel.sh/vercel.json",
-    "headers": [{
-        "source": "/",
-        "headers": [
-            {
-                "key": "refresh",
-                "value": "0; url=https://play.bcactf.com/"
-            }
-        ]
-    }],
-    "redirects": [
-        { "source": "/", "destination": "https://play.bcactf.com/", "permanent": true }
-    ]
+    "$schema": "https://openapi.vercel.sh/vercel.json"
 }
