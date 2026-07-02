@@ -1,6 +1,6 @@
 const timerElement = document.getElementById("timer");
-const ctfTime =    1750467600000; // Fri 20 June 2025 9 PM EST
-const ctfEndTime = 1750726800000; // Fri 23 June 2025 9 PM EST
+const ctfTime =    1783072800000; // Fri 3 June 2026 10 AM UTC
+const ctfEndTime = 1783332000000; // Fri 6 June 2026 10 AM UTC
 let interval;
 let showSeconds = window.innerWidth > 801;
 
